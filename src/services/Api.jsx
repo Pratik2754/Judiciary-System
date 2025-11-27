@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://judiciary-system-backend.onrender.com", // update with your backend URL
+  baseURL: "https://judiciary-system-backend.onrender.com/api", // update with your backend URL
   // baseURL: "http://localhost:5000/api"
 });
 
